@@ -1,7 +1,7 @@
 export const NAV_ITEMS = [
     { href: '/', label: 'Dashboard' },
     { href: '/search', label: 'Search' },
-    { href: '/watchlist', label: 'Watchlist' },
+    // { href: '/watchlist', label: 'Watchlist' },
 ];
 
 // Sign-up form select options
@@ -263,66 +263,83 @@ export const COMPANY_FINANCIALS_WIDGET_CONFIG = (symbol: string) => ({
 });
 
 export const POPULAR_STOCK_SYMBOLS = [
-    // Tech Giants (the big technology companies)
-    'AAPL',
-    'MSFT',
-    'GOOGL',
-    'AMZN',
-    'TSLA',
-    'META',
-    'NVDA',
-    'NFLX',
-    'ORCL',
-    'CRM',
+    // Indian Tech & IT Services
+    'TCS',
+    'INFY',
+    'WIPRO',
+    'HCLTECH',
+    'TECHM',
+    'LTIM',
+    'MPHASIS',
+    'PERSISTENT',
 
-    // Growing Tech Companies
-    'ADBE',
-    'INTC',
-    'AMD',
-    'PYPL',
-    'UBER',
-    'ZOOM',
-    'SPOT',
-    'SQ',
-    'SHOP',
-    'ROKU',
+    // Banking & Financials
+    'HDFCBANK',
+    'ICICIBANK',
+    'SBIN',
+    'KOTAKBANK',
+    'AXISBANK',
+    'BANKBARODA',
+    'PNB',
+    'IDFCFIRSTB',
 
-    // Newer Tech Companies
-    'SNOW',
-    'PLTR',
-    'COIN',
-    'RBLX',
-    'DDOG',
-    'CRWD',
-    'NET',
-    'OKTA',
-    'TWLO',
-    'ZM',
+    // Conglomerates & Large Caps
+    'RELIANCE',
+    'TITAN',
+    'ADANIENT',
+    'ADANIPORTS',
+    'BAJAJ-AUTO',
+    'BAJAJFINSV',
+    'BAJFINANCE',
+    'LTI',
 
-    // Consumer & Delivery Apps
-    'DOCU',
-    'PTON',
-    'PINS',
-    'SNAP',
-    'LYFT',
-    'DASH',
-    'ABNB',
-    'RIVN',
-    'LCID',
-    'NIO',
+    // FMCG & Consumer Goods
+    'HINDUNILVR',
+    'ITC',
+    'NESTLEIND',
+    'DABUR',
+    'BRITANNIA',
+    'MARICO',
+    'COLPAL',
 
-    // International Companies
-    'XPEV',
-    'LI',
-    'BABA',
-    'JD',
-    'PDD',
-    'TME',
-    'BILI',
-    'DIDI',
-    'GRAB',
-    'SE',
+    // Automobiles & EV
+    'TATAMOTORS',
+    'M&M',
+    'MARUTI',
+    'ASHOKLEY',
+    'EICHERMOT',
+    'TVSMOTOR',
+
+    // Pharma & Healthcare
+    'SUNPHARMA',
+    'DRREDDY',
+    'CIPLA',
+    'DIVISLAB',
+    'LUPIN',
+    'AUROPHARMA',
+
+    // Energy, Oil & Gas
+    'ONGC',
+    'GAIL',
+    'BPCL',
+    'IOC',
+    'NTPC',
+    'POWERGRID',
+    'ADANIGREEN',
+
+    // Telecom
+    'BHARTIARTL',
+    'IDEA',
+
+    // Metals & Infra
+    'TATASTEEL',
+    'JSWSTEEL',
+    'HINDALCO',
+    'ULTRACEMCO',
+    'AMBUJACEM',
+    'L&T',
 ];
+
 
 export const NO_MARKET_NEWS =
     '<p class="mobile-text" style="margin:0 0 20px 0;font-size:16px;line-height:1.6;color:#4b5563;">No market news available today. Please check back tomorrow.</p>';
